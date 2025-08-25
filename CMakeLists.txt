@@ -3,4 +3,6 @@ project(BitManipulation)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(BitManipulation BitManipulation/main.cpp)
+add_executable(BitManipulation BitManipulation/main.cpp
+        BitManipulation/functions.cpp
+        BitManipulation/functions.h)
